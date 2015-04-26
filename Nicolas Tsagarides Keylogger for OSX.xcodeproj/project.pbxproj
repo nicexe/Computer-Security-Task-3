@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F51C7FA1AE6652800F18D83 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F51C7F91AE6652800F18D83 /* main.c */; };
+		7F51C8011AE6691D00F18D83 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51C8001AE6691C00F18D83 /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7F51C7F61AE6652800F18D83 /* Nicolas Tsagarides Keylogger for OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Nicolas Tsagarides Keylogger for OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F51C7F91AE6652800F18D83 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7F51C8001AE6691C00F18D83 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		7F76ACAF1AED7C0F00F18D83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F51C8011AE6691D00F18D83 /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +45,8 @@
 		7F51C7ED1AE6652800F18D83 = {
 			isa = PBXGroup;
 			children = (
+				7F76ACAF1AED7C0F00F18D83 /* README.md */,
+				7F51C8001AE6691C00F18D83 /* ApplicationServices.framework */,
 				7F51C7F81AE6652800F18D83 /* Nicolas Tsagarides Keylogger for OSX */,
 				7F51C7F71AE6652800F18D83 /* Products */,
 			);
@@ -235,6 +241,7 @@
 				7F51C7FF1AE6652800F18D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
